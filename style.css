@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Genos:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp11386864.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.drumset-container {
+    padding: 300px 0 300px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.drumset__tile {
+    width: 90px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color: bisque;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.playing {
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
